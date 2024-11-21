@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Dog-Cat-Mouse Game </title>
+  <link
+     rel="stylesheet" 
+     href="styles/12-Dog-Mouse_Cat.css">
+
+  </head>
+  <body>
+
+    <p class="title">Dog Cat Mouse Game By Yezzel</p>
+    <Button onclick="
+    
+    
+
+    " class="icons-button js-button-dog"><img src="images/Dog-emolji.png" class="emolji-icons"></Button>
+
+
+     <Button onclick="
+
+    
+ 
+   " class="icons-button js-button-cat"><img src="images/Cat-emolji.png" class="emolji-icons"></Button>
+    
+  
+    <Button onclick="
+
+    
+
+   " class="icons-button js-button-mouse"><img src="images/Mouse-emolji.png" 
+   class="emolji-icons"></Button>
+
+
+
+   <p class="js-result result-button"></p>
+   <p class="js-moves"></p>
+
+   <p class="js-score score"></p>
+
+    <Button onclick="
+     score.wins = 0
+     score.losses = 0
+     score.Ties = 0
+     localStorage.removeItem('score');
+     updateScoreElement();
+     
+  " class="reset-button">Reset button</Button>
+
+  <button class="auto-play-button" onclick="
+
+  autoPlay();
+  
+  ">Random Play</button>
+
+
+  <script src="Scripts/12-Dog-Cat-Mouse.js"></script>
+
+  </body>
+  </html>
+
+
+
+
